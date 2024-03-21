@@ -38,8 +38,14 @@ body{
 #box{
   
   
-  transition: .5s ease;
+  transition:all .5s ease;
+  
 
+}
+
+html{
+  transition: translate .5 ease;
+  overflow-x: hidden;
 }
 
 .place-self-center button {
