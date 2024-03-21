@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: outfit;
+
+}
+
+
+
+.outfit{
+  font-family: "Outfit", sans-serif;
+
+  font-style: normal;
+}
+
+#wheel{
+ 
+  animation :roundd 30s linear infinite;
+  transform-origin: center center;
+
+
+}
+
+body{
+  overflow-x: hidden;
+}
+
+@keyframes roundd {
+0%{
+  rotate: 0deg;
+}
+100%
+{
+  rotate: 360deg;
+}
+}
+#box{
+  
+  
+  transition: .5s ease;
+
+}
+
+.place-self-center button {
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 10px;
+}
