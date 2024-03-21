@@ -3,7 +3,7 @@ import Vector from "../Assets/Vector.png"
 function Main()
 {
     return (
-        <div className="flex w-[100vw] mt-28 flex-col max-md:items-center">
+        <div className="flex w-[100vw] mt-20 flex-col max-md:items-center">
             <div className="flex w-full max-md:flex-col max-md:items-center ">
                 <div className="flex flex-col p-10 mt-5 gap-10 ml-[3rem] max-md:p-0 max-md:gap-5 max-md:ml-0">
                       <h1 className="text-[50px] flex justify-center font-semibold max-md:p-4 max-w-[40rem] max-md:w-full text-[#FF8A00] max-md:text-[30px]">Your Path Is illuminated By Road-Map Of Stars.....</h1>
